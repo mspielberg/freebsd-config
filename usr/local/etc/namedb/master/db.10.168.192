@@ -1,0 +1,23 @@
+$TTL 3D
+@       IN      SOA     ns.orionnet.net. hostmaster.orionnet.net. (
+                        201407061 ; Serial, todays date + todays serial
+                        8H      ; Refresh
+                        2H      ; Retry
+                        4W      ; Expire
+                        1D)     ; Minimum TTL
+                NS      ns.orionnet.net.
+
+1               PTR     pathfinder.orionnet.net.
+2               PTR     netgear.orionnet.net.
+
+31              PTR     ozone.orionnet.net.
+
+45              PTR     shirogane.orionnet.net.
+47              PTR     intruder.orionnet.net.
+
+50		PTR	ps2.orionnet.net.
+
+61              PTR     tsurugi-wl.orionnet.net.
+65              PTR     shirogane-wl.orionnet.net.
+
+81              PTR     minisakuya.orionnet.net.

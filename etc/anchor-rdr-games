@@ -1,0 +1,33 @@
+# BitTorrent for Star Trek Online updater
+rdr pass proto tcp from any to any port 6881 \
+    -> 192.168.10.47
+# Supreme Commander
+rdr pass proto udp from any to any port 9047 \
+    -> 192.168.10.47
+# Magicka
+rdr pass proto udp from any to any port 7331 \
+    -> 192.168.10.47
+rdr pass proto udp from any to any port 27016 \
+    -> 192.168.10.47
+# Terraria
+rdr pass proto tcp from any to any port 7777 \
+    -> 192.168.10.47
+# Civ 4
+rdr pass proto udp from any to any port 2056 \
+    -> 192.168.10.47
+
+# starbound
+rdr pass proto tcp from any to any port 21025 \
+    -> 192.168.10.47
+
+# Steam P2P
+rdr pass proto tcp from any to any port 3478 \
+    -> 192.168.10.47
+rdr pass proto tcp from any to any port 4379 \
+    -> 192.168.10.47
+rdr pass proto tcp from any to any port 4380 \
+    -> 192.168.10.47
+
+# Dead Space 3 (maybe? untested)
+rdr pass proto udp from any to any port 3659 \
+    -> 192.168.10.47

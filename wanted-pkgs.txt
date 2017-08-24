@@ -1,0 +1,17 @@
+bash
+bind910
+curl
+git
+isc-dhcp42-server
+lesspipe
+nut
+openjdk
+pftop
+pkg
+rsync
+rtorrent
+samba
+sudo
+tmux
+vim-lite
+w3m

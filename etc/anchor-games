@@ -1,0 +1,9 @@
+# Minecraft
+pass in quick inet proto tcp from any to any port 25565
+# Minecraft - Blast Off
+pass in quick inet proto tcp from any to any port 25566
+# JMX
+pass in quick inet proto tcp from any to any port 1099
+pass in quick inet proto tcp from any to any port 47304
+pass in quick inet proto tcp from any to any port 9001
+pass in quick inet proto tcp from any to any port 25412

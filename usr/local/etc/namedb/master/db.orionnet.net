@@ -1,0 +1,26 @@
+$TTL 3D
+@       IN      SOA     ns.orionnet.net. hostmaster.orionnet.net. (
+                        201407061       ; serial, todays date + todays serial #
+                        8H              ; refresh, seconds
+                        2H              ; retry, seconds
+                        4W              ; expire, seconds
+                        1D )            ; minimum, seconds
+;
+                NS      ns              ; Inet Address of name server
+
+pathfinder      A	192.168.10.1
+ns		A	192.168.10.1
+gw              A	192.168.10.1
+netgear         A	192.168.10.2
+
+ozone           A       192.168.10.31
+
+shirogane	A	192.168.10.45
+intruder	A	192.168.10.47
+
+ps2		A	192.168.10.50
+
+tsurugi-wl	A	192.168.10.61
+shirogane-wl	A	192.168.10.65
+
+minisakuya	A	192.168.10.81
